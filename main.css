@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.mainDiv {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.image {
+    height: 70vh;
+    width: 60vw;
+}
+
+.loginDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.butt {
+    padding: 15px;
+    border-width: 0px;
+    border-radius: 10px;
+    background-color: #290FBA;
+    color: white;
+    width: 125px;
+}
+
+input {
+    background-color: #C8C6C6;
+    border: none;
+    /* outline: none; */
+}
+
+label {
+    font-weight: bold;
+    font-size: 15px;
+    align-self: flex-start;
+}
+
+input {
+    align-self: flex-start;
+}
+
+.checkbox {
+    align-self: flex-start;
+}
+
+#usernameReq {
+    color: red;
+}
+
+#passwordReq {
+    color: red;
+}
+
+@media (max-width:767px) {
+    .mainDiv {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .loginDiv {
+        order: -1;
+    }
+
+    .imageDiv {
+        text-align: center;
+    }
+
+    .image {
+        height: 50vh;
+    }
+}
